@@ -3,6 +3,29 @@
 	<title>Habit Solution Page</title>
 </head>
 <body>
+
+<form method="get" action="http://www.google.com/search">
+
+<div style="border:1px solid black;padding:4px;width:20em;">
+<table border="0" align="center" cellpadding="0">
+<tr><td>
+<input type="text" id="my-input" autofocus="autofocus" name="q" size="25"
+maxlength="255" value="" />
+<input type="submit" value="Google Search" /></td></tr>
+<tr><td align="center" style="font-size:75%">
+<input type="radio"  name="sitesearch" value="" checked />The Web
+<input type="radio"  name="sitesearch"
+value="yoursite.com" /> Only Your Site<br />
+</td></tr></table>
+</div>
+
+</form>
+<script>
+  if (!("autofocus" in document.createElement("input"))) {
+    document.getElementById("my-input").focus();
+  }
+</script>
+<!-- new^^^ --->
 	<h1>To do list/what is your main focus for today</h1>
 	Get through workflow part of bento tutorial
 	start working on turning this group of text into a saveable text box (need backend?)
