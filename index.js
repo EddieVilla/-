@@ -16,6 +16,6 @@ function startWatch(){
     xVal += ms;
 
     //update UI
-    xElement.innerHTML = Math.round((xVal/1000/60/60/24/365)*100000000)/100000000; //convert to year format
+    xElement.innerHTML = Math.round((xVal/1000/60/60/24/365)*1000000000)/1000000000; //convert to year format
 
 }
