@@ -31,5 +31,8 @@
 
     }
 
-    document.querySelector('#find-me').addEventListener('click', geoFindMe);
+    el=document.querySelector('#find-me')
+    if(el){
+        el.addEventListener('click', geoFindMe);
+    }
 </script>
