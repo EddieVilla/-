@@ -10,6 +10,8 @@ xElement = document.getElementById("test");
 //run `startWatch` every `ms` milliseconds
 var Interval = window.setInterval(startWatch, ms);
 
+console.log("Hello from https://github.com/EddieVilla/-/");
+
 
 function startWatch(){
 
